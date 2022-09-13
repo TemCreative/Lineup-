@@ -1,4 +1,13 @@
 
+#img{
+    min-height: 3vh;
+    min-width: 2;
+    background: linear-gradient(rgba(132, 128, 182, 0), rgba(211, 210, 225, 0)), url(/images/img_5529.jpg);
+    background-size: fixed;
+        /* background-repeat: no-repeat; */
+    background-size: cover;
+   
+}
 /* 
   .bottom-left {
     position: absolute;
