@@ -8,6 +8,18 @@
     background-size: cover;
    
 }
+#family{
+    z-index: 1;
+}
+.image1{
+    position: absolute;
+    height: 10%;
+    width: 15%;
+    left: 10px;
+    top: 90px;
+    right: 30px;
+
+}
 /* 
   .bottom-left {
     position: absolute;
