@@ -11,10 +11,10 @@ class player {
         console.log("Davide Ancelotti")
     }
 }
-class Truck extends Car{
+// class Truck extends Car{
    
-}
-console.log(Car)
+// }
+// console.log(Car)
 var Courtois = new player  ("Goalkeeper","1")
 console.log(Courtois)
 var Militao = new player  ("Right back","3")
@@ -25,11 +25,17 @@ var Carvajal = new player  ("Center back","2")
 console.log(Carvajal)
 var Alaba = new player  ("Center back","4")
 console.log(Alaba)
-var Kroos = new player  ("Central midfielder","8")
+var Kroos = new player  ("Central back","8")
 console.log(Kroos)
-var Valverde = new player  ("Attacking midfielder","15")
+var Valverde = new player  ("Central midfielder","15")
 console.log(Valverde)
-var Camavinga = new player  ("Defensive midfielder","25")
+var Camavinga = new player  ("Attacking midfielder","25")
 console.log(Camavinga)
-var Valverde = new player  ("Attacking Midfielder","15")
-console.log(Valverde)
+var Modric = new player  ("Defensive Midfielder","10")
+console.log(Modric)
+var Asensio = new player  ("Right Wing Forward","11")
+console.log(Asensio)
+var Vinicius = new player  ("Left Wing Forward","20")
+console.log(Vinicius)
+var Benzema = new player  ("Striker","9")
+console.log(Benzema)
