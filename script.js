@@ -10,7 +10,7 @@ class Club {
 
 var player1 = new Club(" Courtois", "1", "Belgian", "Gk")
 var player2 = new Club(" Militao", "3", "Brazilian", "RB")
-var player3 = new Club("Carvajal ", "2", "Argentina", "CB")
+var player3 = new Club("Carvajal ", "2", "Spanish", "CB")
 var player4 = new Club(" Kroos", "8", "England", "CB")
 var player5 = new Club(" Nacho", "6", "France", "RB")
 var player6 = new Club(" Modric", "10", "England", "CM")
