@@ -119,6 +119,7 @@ p {
     background-size: 100% 100%;
     background-image: url(/images/cf4ce6c47cb24b9053fcdc282e9c7092.png);
     position: relative;
+    z-index: 1;
 }
 
 
