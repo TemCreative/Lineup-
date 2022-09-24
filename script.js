@@ -8,17 +8,17 @@ class Club {
     run() { }
 }
 
-var player1 = new Club(" De gea", "1", "Spain", "Gk")
-var player2 = new Club(" Shaw", "23", "England", "LB")
-var player3 = new Club("Lisandro ", "6", "Argentina", "CB")
-var player4 = new Club(" Maguire", "5", "England", "CB")
-var player5 = new Club(" Varane", "19", "France", "RB")
-var player6 = new Club(" Eriksen", "14", "England", "CM")
-var player7 = new Club("Fred", "17", "Brazil", "CM")
-var player8 = new Club("Rashford", "10", "England", "LW")
-var player9 = new Club(" Fernandes", "8", "Portugal", "AM")
-var player10 = new Club("Antony", "21", "Brazil", "RW")
-var player11 = new Club(" Martial", "9", "France", "CF")
+var player1 = new Club(" Courtois", "1", "Belgian", "Gk")
+var player2 = new Club(" Militao", "3", "Brazilian", "RB")
+var player3 = new Club("Carvajal ", "2", "Argentina", "CB")
+var player4 = new Club(" Kroos", "8", "England", "CB")
+var player5 = new Club(" Nacho", "6", "France", "RB")
+var player6 = new Club(" Modric", "10", "England", "CM")
+var player7 = new Club("Valverde", "15", "Brazil", "CM")
+var player8 = new Club("Vinicius", "20", "England", "LW")
+var player9 = new Club(" Camavinga ", "25", "Portugal", "AM")
+var player10 = new Club("Asensio", "11", "Brazil", "RW")
+var player11 = new Club(" Benzema", "9", "France", "CF")
 
 console.log(player1)
 
@@ -33,8 +33,6 @@ cf.innerHTML = `<p>${player8.name} <br> <br> ${player8.number}  <br> <br> ${play
 cm.innerHTML = `<p>${player9.name} <br> <br> ${player9.number}  <br> <br> ${player9.position}  </p> <div id="country" class="mx-auto text-center bg-danger">${player9.nationality}</div> `
 am.innerHTML = `<p>${player10.name} <br> <br> ${player10.number}  <br> <br> ${player10.position}  </p> <div id="country" class="mx-auto text-center bg-danger">${player10.nationality}</div> `
 rw.innerHTML = `<p>${player11.name} <br> <br> ${player11.number}  <br> <br> ${player11.position}  </p> <div id="country" class="mx-auto text-center bg-danger">${player11.nationality}</div> `
- 
-
 
 
 // class Truck extends Car{
